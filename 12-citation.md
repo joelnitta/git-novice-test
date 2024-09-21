@@ -18,8 +18,8 @@ exercises: 0
 
 You may want to include a file called `CITATION` or `CITATION.txt`
 that describes how to reference your project;
-the [one for Software
-Carpentry](https://github.com/swcarpentry/website/blob/gh-pages/CITATION)
+the one for Software
+Carpentry
 states:
 
 ```source
@@ -51,7 +51,7 @@ July 2013.
 ```
 
 More detailed advice, and other ways to make your code citable can be found
-[at the Software Sustainability Institute blog](https://www.software.ac.uk/how-cite-and-describe-software) and in:
+[at the Software Sustainability Institute blog](https://www.software.ac.uk/publication/how-cite-and-describe-software) and in:
 
 ```source
 Smith AM, Katz DS, Niemeyer KE, FORCE11 Software Citation Working Group. (2016) Software citation
@@ -69,5 +69,3 @@ make citable.
 - Add a CITATION file to a repository to explain how you want your work cited.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
