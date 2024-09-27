@@ -65,7 +65,7 @@ jobs:
           reset <- "${{ github.event.inputs.reset }}" == "true"
           options(repos = c(carpentries = "https://carpentries.r-universe.dev/", CRAN = "https://cran.rstudio.com/"))
           renv::install("carpentries/sandpaper")
-          renv::install("joelnitta/dovetail")
+          renv::install("joelnitta/dovetail@b80118d77ecbf9afb63d6f0440eda570c64a8cad")
           sandpaper::package_cache_trigger(TRUE)
           lesson_trans_dir <- paste0(tempdir(), "/dovetail-", Sys.Date())
           lang_code <- Sys.getenv("LANG_CODE", unset = "en")
